@@ -1,0 +1,27 @@
+# source: https://github.com/2ym/fedora-gnome-post-installation
+
+[org/gnome/desktop/interface]
+show-battery-percentage=true
+color-scheme='prefer-dark'
+ 
+[org/gnome/desktop/wm/preferences]
+button-layout=':minimize,close'
+
+[org/gnome/shell/keybindings]
+screenshot=['Print']
+screenshot-window=['<Shift><Alt><Super>s']
+show-screenshot-ui=['<Shift><Super>s']
+
+[org/gnome/TextEditor]
+show-line-numbers=true
+highlight-current-line=true
+
+[org/gnome/desktop/peripherals/touchpad]
+tap-to-click=true
+
+[org/gnome/desktop/interface]
+gtk-theme='adw-gtk3-dark'
+
+[org/gnome/settings-daemon/plugins/power]
+power-button-action='nothing'
+sleep-inactive-battery-type='nothing'
